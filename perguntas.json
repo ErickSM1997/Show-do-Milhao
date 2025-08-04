@@ -1,0 +1,102 @@
+[
+    {
+        "pergunta": "Por que as zebras têm listras?",
+        "alternativas": [
+            "Para camuflagem em savanas secas",
+            "Para confundir predadores com o movimento",
+            "Para controle de temperatura corporal",
+            "Para atrair parceiros"
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual objeto de uso diário foi inventado por acidente com papel molhado?",
+        "alternativas": [
+            "Filtro de café",
+            "Papel higiênico",
+            "Post-it",
+            "Guardanapo"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual o país com mais fusos horários no mundo?",
+        "alternativas": [
+            "Estados Unidos",
+            "China",
+            "Rússia",
+            "França"
+        ],
+        "correta": 3
+    },
+    {
+        "pergunta": "Como é chamado o medo irracional de buracos pequenos e agrupados?",
+        "alternativas": [
+            "Tripofobia",
+            "Claustrofobia",
+            "Agorafobia",
+            "Acrofobia"
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual a fruta com maior quantidade de calorias por grama?",
+        "alternativas": [
+            "Banana",
+            "Abacate",
+            "Tâmara",
+            "Coco seco"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Por que os gatos ronronam?",
+        "alternativas": [
+            "Somente por prazer",
+            "Para se comunicar com humanos",
+            "Para relaxar e curar o próprio corpo",
+            "Somente para pedir comida"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual substância é usada em absorventes para reter líquido?",
+        "alternativas": [
+            "Amido de milho",
+            "Gel de sílica",
+            "Polímero superabsorvente",
+            "Talco mineral"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Em média, quantas bactérias há em um teclado de computador?",
+        "alternativas": [
+            "10 vezes mais que em uma privada",
+            "Metade do que há no celular",
+            "Quase nenhuma, se limpo semanalmente",
+            "Milhões, mas todas inofensivas"
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual o nome da ciência que estuda os sonhos?",
+        "alternativas": [
+            "Oneirologia",
+            "Neurologia onírica",
+            "Sonhologia",
+            "Psiconautismo"
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quantos anos tem a luz do Sol que chega à Terra?",
+        "alternativas": [
+            "8 segundos",
+            "8 minutos",
+            "1 dia",
+            "1 ano"
+        ],
+        "correta": 1
+    }
+]

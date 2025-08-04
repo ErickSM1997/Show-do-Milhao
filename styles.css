@@ -1,0 +1,125 @@
+/* Reset básico para evitar margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at center, #002366, #000);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Cada "tela" do jogo (inicial, perguntas, final) */
+.tela {
+    background: white;
+    color: #002366;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+/* Classe para tornar a tela visível */
+.ativa {
+    display: flex;
+}
+
+/* Campos de entrada */
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Botões genéricos */
+button {
+    padding: 12px;
+    background: #ffcc00;
+    color: #002366;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse nos botões */
+button:hover {
+    background: #e6b800;
+}
+
+/* Área onde aparece o texto da pergunta */
+.texto-pergunta {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo das alternativas de resposta */
+.botoes-alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alternativa {
+    padding: 12px;
+    background: #001f5b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+/* Efeito ao passar o mouse nas alternativas */
+.alternativa:hover {
+    background: #003399;
+}
+
+/* Quando a resposta está correta, mostra verde */
+.alternativa.correta {
+    background: #2e7d32 !important;
+}
+
+/* Quando a resposta está incorreta, mostra vermelho */
+.alternativa.errada {
+    background: #c62828 !important;
+}
+
+/* Estilização dos botões de ajuda (pular, eliminar, parar) */
+.ajudas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilo do cabeçalho com progresso e tempo */
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Temporizador com destaque */
+#timer {
+    color: #d32f2f;
+}
+
+/* Tela final de encerramento */
+#tela-final p {
+    font-size: 18px;
+    margin: 10px 0;
+}

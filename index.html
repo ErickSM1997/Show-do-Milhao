@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Show do Milhão</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Tela inicial -->
+  <div id="tela-inicial" class="tela ativa">
+    <h1>Show do Milhão</h1>
+    <label for="nome-jogador">Digite seu nome:</label>
+    <input type="text" id="nome-jogador" placeholder="Seu nome" />
+    <button id="btn-iniciar">Iniciar Jogo</button>
+  </div>
+
+  <!-- Tela de perguntas -->
+  <div id="tela-pergunta" class="tela">
+    <div id="cabecalho">
+      <span id="progresso">Pergunta 1 de 10</span>
+      <span id="timer">15s</span>
+    </div>
+
+    <h2 id="titulo-pergunta">Pergunta</h2>
+    <p id="texto-pergunta" class="texto-pergunta">Texto da pergunta aqui...</p>
+
+    <div id="botoes-alternativas" class="botoes-alternativas">
+      <!-- Botões de alternativas criados via JS -->
+    </div>
+
+    <div class="ajudas">
+      <button id="btn-pular">Pular</button>
+      <button id="btn-eliminar">Eliminar 2</button>
+      <button id="btn-parar">Parar</button>
+      <button id="botao-reiniciar"> Reiniciar</button>
+    </div>
+  </div>
+
+  <!-- Tela final -->
+  <div id="tela-final" class="tela">
+    <h2>Fim de Jogo!</h2>
+    <p id="texto-resultado"></p>
+    <button id="botao-reiniciar">Jogar Novamente</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
